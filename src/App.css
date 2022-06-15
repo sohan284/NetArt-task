@@ -1,10 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
+  background-color: rgb(253, 245, 235);
+  margin: auto;
+}
+.logo img{
+  width: 300px;
+
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.bannerImg img{
+  width: 400px;
+
+}
+.titleImg img{
+  width: 800px;
+  
+}
+.titleImg{
+  text-align: left;
+}
+.AwardTitle{
+  font-weight:800;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.tools img{
+  width: 900px;
+}
+.tools{
+  margin: 40px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid red;
+}
+.lastTitle{
+  margin: 40px;
+}
+
+.fb{
+  display: flex;
+}
+.fb img{
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+}
+.t{
+  margin-left: 10px;
+}
+.footer{
+  height: 150px;
+  color: rgba(255, 255, 255, 0.884);
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(182, 16, 16, 0.925);
 }
 
 @media (prefers-reduced-motion: no-preference) {
