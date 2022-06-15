@@ -1,6 +1,6 @@
 import React from 'react';
 import img from './1020190.webp'
-import img2 from './mobile-phone-icon-phone-telephone-icon-22.png'
+import img2 from './phonee.png'
 import img3 from './internet.png'
 
 const Footer = () => {
